@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-buster
+FROM azul/zulu-openjdk-debian:7u285-7.42.0.51
 
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
